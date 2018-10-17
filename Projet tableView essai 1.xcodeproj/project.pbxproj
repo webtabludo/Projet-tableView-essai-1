@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8263B68721776D4F00273FD3 /* Calanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8263B68621776D4F00273FD3 /* Calanque.swift */; };
+		8263B6892177700C00273FD3 /* CalanqueCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8263B6882177700C00273FD3 /* CalanqueCollection.swift */; };
 		82715A6C21775F8300B0424B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82715A6B21775F8300B0424B /* AppDelegate.swift */; };
 		82715A6E21775F8300B0424B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82715A6D21775F8300B0424B /* FirstViewController.swift */; };
 		82715A7021775F8300B0424B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82715A6F21775F8300B0424B /* SecondViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8263B68621776D4F00273FD3 /* Calanque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calanque.swift; sourceTree = "<group>"; };
+		8263B6882177700C00273FD3 /* CalanqueCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCollection.swift; sourceTree = "<group>"; };
 		82715A6821775F8300B0424B /* Projet tableView essai 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Projet tableView essai 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82715A6B21775F8300B0424B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82715A6D21775F8300B0424B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		8263B68321776C4700273FD3 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				8263B68621776D4F00273FD3 /* Calanque.swift */,
+				8263B6882177700C00273FD3 /* CalanqueCollection.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -164,7 +170,9 @@
 			files = (
 				82715A7021775F8300B0424B /* SecondViewController.swift in Sources */,
 				82715A6C21775F8300B0424B /* AppDelegate.swift in Sources */,
+				8263B6892177700C00273FD3 /* CalanqueCollection.swift in Sources */,
 				82715A6E21775F8300B0424B /* FirstViewController.swift in Sources */,
+				8263B68721776D4F00273FD3 /* Calanque.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
