@@ -37,6 +37,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8263B68321776C4700273FD3 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		8263B68421776C5500273FD3 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		8263B68521776C5C00273FD3 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				82715A6D21775F8300B0424B /* FirstViewController.swift */,
+				82715A6F21775F8300B0424B /* SecondViewController.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
 		82715A5F21775F8300B0424B = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +79,10 @@
 		82715A6A21775F8300B0424B /* Projet tableView essai 1 */ = {
 			isa = PBXGroup;
 			children = (
+				8263B68321776C4700273FD3 /* Modele */,
+				8263B68421776C5500273FD3 /* Vue */,
+				8263B68521776C5C00273FD3 /* Contoller */,
 				82715A6B21775F8300B0424B /* AppDelegate.swift */,
-				82715A6D21775F8300B0424B /* FirstViewController.swift */,
-				82715A6F21775F8300B0424B /* SecondViewController.swift */,
 				82715A7121775F8300B0424B /* Main.storyboard */,
 				82715A7421775F8800B0424B /* Assets.xcassets */,
 				82715A7621775F8800B0424B /* LaunchScreen.storyboard */,
