@@ -16,6 +16,8 @@
 		82715A7321775F8300B0424B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82715A7121775F8300B0424B /* Main.storyboard */; };
 		82715A7521775F8800B0424B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82715A7421775F8800B0424B /* Assets.xcassets */; };
 		82715A7821775F8800B0424B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82715A7621775F8800B0424B /* LaunchScreen.storyboard */; };
+		82F7DB2C21778FF4008472FF /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7DB2B21778FF4008472FF /* CalanqueCell.swift */; };
+		82F7DB2E2177979E008472FF /* imageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7DB2D2177979E008472FF /* imageRonde.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		82715A7421775F8800B0424B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82715A7721775F8800B0424B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82715A7921775F8800B0424B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F7DB2B21778FF4008472FF /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
+		82F7DB2D2177979E008472FF /* imageRonde.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageRonde.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		8263B68421776C5500273FD3 /* Vue */ = {
 			isa = PBXGroup;
 			children = (
+				82F7DB2B21778FF4008472FF /* CalanqueCell.swift */,
+				82F7DB2D2177979E008472FF /* imageRonde.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -173,9 +179,11 @@
 			files = (
 				8263B68F217774A900273FD3 /* TableViewIntegreeController.swift in Sources */,
 				82715A6C21775F8300B0424B /* AppDelegate.swift in Sources */,
+				82F7DB2C21778FF4008472FF /* CalanqueCell.swift in Sources */,
 				8263B6892177700C00273FD3 /* CalanqueCollection.swift in Sources */,
 				8263B68D2177748900273FD3 /* ControllerAvecCarte.swift in Sources */,
 				8263B68B2177747400273FD3 /* ControllerAvecTableView.swift in Sources */,
+				82F7DB2E2177979E008472FF /* imageRonde.swift in Sources */,
 				8263B68721776D4F00273FD3 /* Calanque.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
